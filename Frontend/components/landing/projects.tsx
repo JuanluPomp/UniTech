@@ -57,8 +57,8 @@ const projects = [
     category: "Hotelería",
     technologies: ["Next.js", "Express", "MySQL", "Redis"],
     images: [
-      "/projects/logiHostel_placeholder.svg",
-      "/projects/logiHostel_placeholder2.svg",
+      "/projects/hotel_manager1.png",
+      "/projects/hotel_manager.png",
     ],
   },
 ]

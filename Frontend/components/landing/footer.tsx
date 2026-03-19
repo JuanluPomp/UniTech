@@ -23,7 +23,7 @@ const socialLinks = [
   { icon: Linkedin, href: "#", label: "LinkedIn" },
   { icon: Github, href: "#", label: "GitHub" },
   { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "mailto:contacto@unitech.dev", label: "Email" },
+  { icon: Mail, href: "mailto:luislizarragap1@gmail.com", label: "Email" },
 ]
 
 export function Footer() {
@@ -101,21 +101,21 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-gray-400">
               <li>
                 <a
-                  href="mailto:contacto@unitech.dev"
+                  href="mailto:luislizarragap1@gmail.com"
                   className="hover:text-teal-400 transition-colors"
                 >
-                  contacto@unitech.dev
+                  luislizarragap1@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+34XXXXXXXXX"
+                  href="tel:+34744767301"
                   className="hover:text-teal-400 transition-colors"
                 >
-                  +34 XXX XXX XXX
+                  +34 744 767 301
                 </a>
               </li>
-              <li>Disponible remoto - Europa</li>
+              <li>Disponible remoto - Europa, México y USA</li>
             </ul>
             {/* Availability Badge */}
             <div className="mt-4 inline-flex items-center gap-2 px-3 py-2 bg-teal-500/10 rounded-lg border border-teal-500/20">
@@ -130,7 +130,7 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="py-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} UniTech. Todos los derechos reservados.
+            © {new Date().getFullYear()} Juan Lizarraga Dev. Todos los derechos reservados.
           </p>
           <div className="flex gap-6 text-sm">
             <Link

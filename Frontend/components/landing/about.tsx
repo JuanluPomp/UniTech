@@ -195,15 +195,24 @@ export function About() {
                       </div>
                     </div>
                     {/* Connection Points */}
-                    {[0, 45, 90, 135, 180, 225, 270, 315].map((angle, i) => (
+                    {[
+                      { angle: 0, opacity: 0.9 },
+                      { angle: 45, opacity: 0.6 },
+                      { angle: 90, opacity: 0.8 },
+                      { angle: 135, opacity: 0.5 },
+                      { angle: 180, opacity: 0.7 },
+                      { angle: 225, opacity: 0.4 },
+                      { angle: 270, opacity: 0.65 },
+                      { angle: 315, opacity: 0.75 },
+                    ].map((point, i) => (
                       <div
                         key={i}
                         className="absolute w-3 h-3 bg-teal-400 rounded-full shadow-sm"
                         style={{
-                          top: `${50 + 45 * Math.sin((angle * Math.PI) / 180)}%`,
-                          left: `${50 + 45 * Math.cos((angle * Math.PI) / 180)}%`,
+                          top: `${50 + 45 * Math.sin((point.angle * Math.PI) / 180)}%`,
+                          left: `${50 + 45 * Math.cos((point.angle * Math.PI) / 180)}%`,
                           transform: "translate(-50%, -50%)",
-                          opacity: 0.3 + Math.random() * 0.7,
+                          opacity: point.opacity,
                         }}
                       />
                     ))}
