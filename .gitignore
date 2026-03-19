@@ -1,4 +1,7 @@
-node_modules
-.env
-dist
-.next
+[build]
+  base = "Frontend"
+  command = "npm install && npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
