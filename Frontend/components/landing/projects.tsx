@@ -206,7 +206,7 @@ export function Projects() {
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
             { value: "15+", label: "Proyectos Completados" },
-            { value: "", label: "Clientes Satisfechos" },
+            { value: "+", label: "Clientes Satisfechos" },
             { value: "5+", label: "Países en Europa" },
             { value: "100%", label: "Satisfacción" },
           ].map((stat, i) => (
